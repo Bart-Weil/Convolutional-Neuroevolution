@@ -57,7 +57,7 @@ def initialise_feedforward(layernum):
 
     layerindex = 1
 
-    for layer in range(len(layernum)):
+    for layer in layernum:
 
         layergenome.append(Layer(layer))
 
